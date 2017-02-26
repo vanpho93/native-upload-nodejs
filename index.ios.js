@@ -12,10 +12,11 @@ import {
   View
 } from 'react-native';
 import App from './components/App.js';
+import MaterialTest from './components/MaterialTest.js';
 
 export default class Upload extends Component {
   render() {
-    return <App/>
+    return <MaterialTest/>
   }
 }
 
